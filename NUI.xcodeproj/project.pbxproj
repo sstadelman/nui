@@ -20,7 +20,7 @@
 		1B99B15A1D765CEF00ED8C1B /* NUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0C91D765CEF00ED8C1B /* NUIGraphics.m */; };
 		1B99B15B1D765CEF00ED8C1B /* NUIRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0CA1D765CEF00ED8C1B /* NUIRenderer.h */; };
 		1B99B15C1D765CEF00ED8C1B /* NUIRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0CB1D765CEF00ED8C1B /* NUIRenderer.m */; };
-		1B99B15D1D765CEF00ED8C1B /* NUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0CC1D765CEF00ED8C1B /* NUISettings.h */; };
+		1B99B15D1D765CEF00ED8C1B /* NUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0CC1D765CEF00ED8C1B /* NUISettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99B15E1D765CEF00ED8C1B /* NUISettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0CD1D765CEF00ED8C1B /* NUISettings.m */; };
 		1B99B15F1D765CEF00ED8C1B /* NUIStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0CE1D765CEF00ED8C1B /* NUIStyleParser.h */; };
 		1B99B1601D765CEF00ED8C1B /* NUIStyleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0CF1D765CEF00ED8C1B /* NUIStyleParser.m */; };
@@ -551,13 +551,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B99B0BA1D765C7D00ED8C1B /* NUI.h in Headers */,
 				1B99B19B1D765CEF00ED8C1B /* NUITableViewRenderer.h in Headers */,
+				1B99B15D1D765CEF00ED8C1B /* NUISettings.h in Headers */,
 				1B99B1651D765CEF00ED8C1B /* NUIDeclaration.h in Headers */,
 				1B99B1891D765CEF00ED8C1B /* NUIPageControlRenderer.h in Headers */,
 				1B99B1B41D765CEF00ED8C1B /* UIBarButtonItem+NUI.h in Headers */,
 				1B99B18F1D765CEF00ED8C1B /* NUISegmentedControlRenderer.h in Headers */,
 				1B99B1B61D765CEF00ED8C1B /* UIButton+NUI.h in Headers */,
-				1B99B15D1D765CEF00ED8C1B /* NUISettings.h in Headers */,
 				1B99B1D01D765CEF00ED8C1B /* UITableView+NUI.h in Headers */,
 				1B99B1971D765CEF00ED8C1B /* NUITabBarRenderer.h in Headers */,
 				1B99B1751D765CEF00ED8C1B /* NUIStyleSheetItem.h in Headers */,
@@ -589,7 +590,6 @@
 				1B99B17D1D765CEF00ED8C1B /* NUIBarButtonItemRenderer.h in Headers */,
 				1B99B1671D765CEF00ED8C1B /* NUIDefinition.h in Headers */,
 				1B99B1691D765CEF00ED8C1B /* NUIMediaBlock.h in Headers */,
-				1B99B0BA1D765C7D00ED8C1B /* NUI.h in Headers */,
 				1B99B1A31D765CEF00ED8C1B /* NUIToolbarRenderer.h in Headers */,
 				1B99B15F1D765CEF00ED8C1B /* NUIStyleParser.h in Headers */,
 				1B99B1A11D765CEF00ED8C1B /* NUITextViewRenderer.h in Headers */,
