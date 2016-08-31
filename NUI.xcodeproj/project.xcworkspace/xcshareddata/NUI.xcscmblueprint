@@ -9,7 +9,7 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A74295D5-442F-4897-81C7-9449DF752850",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "2F95D1B34DFEF3E924668F657F0C00B5BE26A2AC" : "nui-carthage\/",
+    "2F95D1B34DFEF3E924668F657F0C00B5BE26A2AC" : "nui\/",
     "20B5E220B44D3958A2219B13999BCD96DC9444FE" : "nui-carthage\/CoreParse\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "NUI",

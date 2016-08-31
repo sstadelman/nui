@@ -8,10 +8,8 @@
 
 #import "NUIStyleParser.h"
 
-#import <CoreParse/CoreParse.h>
+@import CoreParseIOS;
 
-
-#import "CoreParse/CPTokeniser.h"
 #import "NUITokeniserDelegate.h"
 #import "NUIParserDelegate.h"
 #import "NUIStyleSheet.h"

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B32C9CA1D777B510049B577 /* CoreParseIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B32C9C91D777B510049B577 /* CoreParseIOS.framework */; };
 		1B99B0BA1D765C7D00ED8C1B /* NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0B81D765C7D00ED8C1B /* NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99B1521D765CEF00ED8C1B /* NUIAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0C11D765CEF00ED8C1B /* NUIAppearance.h */; };
 		1B99B1531D765CEF00ED8C1B /* NUIAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0C21D765CEF00ED8C1B /* NUIAppearance.m */; };
@@ -148,10 +149,22 @@
 		1B99B1DB1D765CEF00ED8C1B /* UIView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B14F1D765CEF00ED8C1B /* UIView+NUI.m */; };
 		1B99B1DC1D765CEF00ED8C1B /* UIWindow+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B1501D765CEF00ED8C1B /* UIWindow+NUI.h */; };
 		1B99B1DD1D765CEF00ED8C1B /* UIWindow+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B1511D765CEF00ED8C1B /* UIWindow+NUI.m */; };
-		1BF63E1B1D769E1700922911 /* CoreParseIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF63E1A1D769E1700922911 /* CoreParseIOS.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1BF63E291D77758C00922911 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1B32C9C91D777B510049B577 /* CoreParseIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreParseIOS.framework; path = Carthage/Build/iOS/CoreParseIOS.framework; sourceTree = "<group>"; };
 		1B99B0B51D765C7D00ED8C1B /* NUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B99B0B81D765C7D00ED8C1B /* NUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NUI.h; sourceTree = "<group>"; };
 		1B99B0B91D765C7D00ED8C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -295,7 +308,6 @@
 		1B99B14F1D765CEF00ED8C1B /* UIView+NUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NUI.m"; sourceTree = "<group>"; };
 		1B99B1501D765CEF00ED8C1B /* UIWindow+NUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+NUI.h"; sourceTree = "<group>"; };
 		1B99B1511D765CEF00ED8C1B /* UIWindow+NUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+NUI.m"; sourceTree = "<group>"; };
-		1BF63E1A1D769E1700922911 /* CoreParseIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreParseIOS.framework; path = Carthage/Build/iOS/CoreParseIOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,7 +315,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BF63E1B1D769E1700922911 /* CoreParseIOS.framework in Frameworks */,
+				1B32C9CA1D777B510049B577 /* CoreParseIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -527,7 +539,7 @@
 		1BF63E191D769E1700922911 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1BF63E1A1D769E1700922911 /* CoreParseIOS.framework */,
+				1B32C9C91D777B510049B577 /* CoreParseIOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -620,6 +632,7 @@
 				1B99B0B11D765C7D00ED8C1B /* Frameworks */,
 				1B99B0B21D765C7D00ED8C1B /* Headers */,
 				1B99B0B31D765C7D00ED8C1B /* Resources */,
+				1BF63E291D77758C00922911 /* CopyFiles */,
 			);
 			buildRules = (
 			);
