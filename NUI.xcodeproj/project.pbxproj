@@ -9,24 +9,24 @@
 /* Begin PBXBuildFile section */
 		1B32C9CA1D777B510049B577 /* CoreParseIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B32C9C91D777B510049B577 /* CoreParseIOS.framework */; };
 		1B99B0BA1D765C7D00ED8C1B /* NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0B81D765C7D00ED8C1B /* NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B99B1521D765CEF00ED8C1B /* NUIAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0C11D765CEF00ED8C1B /* NUIAppearance.h */; };
+		1B99B1521D765CEF00ED8C1B /* NUIAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0C11D765CEF00ED8C1B /* NUIAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99B1531D765CEF00ED8C1B /* NUIAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0C21D765CEF00ED8C1B /* NUIAppearance.m */; };
-		1B99B1541D765CEF00ED8C1B /* NUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0C31D765CEF00ED8C1B /* NUIConstants.h */; };
-		1B99B1551D765CEF00ED8C1B /* NUIConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0C41D765CEF00ED8C1B /* NUIConverter.h */; };
+		1B99B1541D765CEF00ED8C1B /* NUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0C31D765CEF00ED8C1B /* NUIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B99B1551D765CEF00ED8C1B /* NUIConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0C41D765CEF00ED8C1B /* NUIConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99B1561D765CEF00ED8C1B /* NUIConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0C51D765CEF00ED8C1B /* NUIConverter.m */; };
-		1B99B1571D765CEF00ED8C1B /* NUIFileMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0C61D765CEF00ED8C1B /* NUIFileMonitor.h */; };
+		1B99B1571D765CEF00ED8C1B /* NUIFileMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0C61D765CEF00ED8C1B /* NUIFileMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99B1581D765CEF00ED8C1B /* NUIFileMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0C71D765CEF00ED8C1B /* NUIFileMonitor.m */; };
-		1B99B1591D765CEF00ED8C1B /* NUIGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0C81D765CEF00ED8C1B /* NUIGraphics.h */; };
+		1B99B1591D765CEF00ED8C1B /* NUIGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0C81D765CEF00ED8C1B /* NUIGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99B15A1D765CEF00ED8C1B /* NUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0C91D765CEF00ED8C1B /* NUIGraphics.m */; };
-		1B99B15B1D765CEF00ED8C1B /* NUIRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0CA1D765CEF00ED8C1B /* NUIRenderer.h */; };
+		1B99B15B1D765CEF00ED8C1B /* NUIRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0CA1D765CEF00ED8C1B /* NUIRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99B15C1D765CEF00ED8C1B /* NUIRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0CB1D765CEF00ED8C1B /* NUIRenderer.m */; };
 		1B99B15D1D765CEF00ED8C1B /* NUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0CC1D765CEF00ED8C1B /* NUISettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99B15E1D765CEF00ED8C1B /* NUISettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0CD1D765CEF00ED8C1B /* NUISettings.m */; };
-		1B99B15F1D765CEF00ED8C1B /* NUIStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0CE1D765CEF00ED8C1B /* NUIStyleParser.h */; };
+		1B99B15F1D765CEF00ED8C1B /* NUIStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0CE1D765CEF00ED8C1B /* NUIStyleParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99B1601D765CEF00ED8C1B /* NUIStyleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0CF1D765CEF00ED8C1B /* NUIStyleParser.m */; };
-		1B99B1611D765CEF00ED8C1B /* NUISwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0D01D765CEF00ED8C1B /* NUISwizzler.h */; };
+		1B99B1611D765CEF00ED8C1B /* NUISwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0D01D765CEF00ED8C1B /* NUISwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99B1621D765CEF00ED8C1B /* NUISwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0D11D765CEF00ED8C1B /* NUISwizzler.m */; };
-		1B99B1631D765CEF00ED8C1B /* NUIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0D21D765CEF00ED8C1B /* NUIUtilities.h */; };
+		1B99B1631D765CEF00ED8C1B /* NUIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0D21D765CEF00ED8C1B /* NUIUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1B99B1641D765CEF00ED8C1B /* NUIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0D31D765CEF00ED8C1B /* NUIUtilities.m */; };
 		1B99B1651D765CEF00ED8C1B /* NUIDeclaration.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B0D51D765CEF00ED8C1B /* NUIDeclaration.h */; };
 		1B99B1661D765CEF00ED8C1B /* NUIDeclaration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B0D61D765CEF00ED8C1B /* NUIDeclaration.m */; };
@@ -149,6 +149,7 @@
 		1B99B1DB1D765CEF00ED8C1B /* UIView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B14F1D765CEF00ED8C1B /* UIView+NUI.m */; };
 		1B99B1DC1D765CEF00ED8C1B /* UIWindow+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B99B1501D765CEF00ED8C1B /* UIWindow+NUI.h */; };
 		1B99B1DD1D765CEF00ED8C1B /* UIWindow+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B99B1511D765CEF00ED8C1B /* UIWindow+NUI.m */; };
+		1BA2D0231D779C8E0087B1EF /* CoreParseIOS.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1B32C9C91D777B510049B577 /* CoreParseIOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -158,6 +159,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				1BA2D0231D779C8E0087B1EF /* CoreParseIOS.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
