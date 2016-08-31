@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2F95D1B34DFEF3E924668F657F0C00B5BE26A2AC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2F95D1B34DFEF3E924668F657F0C00B5BE26A2AC" : 9223372036854775807,
+    "20B5E220B44D3958A2219B13999BCD96DC9444FE" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A74295D5-442F-4897-81C7-9449DF752850",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2F95D1B34DFEF3E924668F657F0C00B5BE26A2AC" : "nui-carthage\/",
+    "20B5E220B44D3958A2219B13999BCD96DC9444FE" : "nui-carthage\/CoreParse\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NUI",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NUI.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/beelsebob\/CoreParse.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "20B5E220B44D3958A2219B13999BCD96DC9444FE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tombenner\/nui.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2F95D1B34DFEF3E924668F657F0C00B5BE26A2AC"
+    }
+  ]
+}

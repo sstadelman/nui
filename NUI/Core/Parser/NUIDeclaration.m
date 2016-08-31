@@ -10,7 +10,7 @@
 
 @implementation NUIDeclaration
 
-- (id)initWithSyntaxTree:(NUIPSyntaxTree *)syntaxTree
+- (id)initWithSyntaxTree:(CPSyntaxTree *)syntaxTree
 {
     self = [self init];
     

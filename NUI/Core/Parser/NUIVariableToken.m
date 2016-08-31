@@ -14,7 +14,7 @@
     return @"Variable";
 }
 
-- (id)initWithIdentifierToken:(NUIPIdentifierToken *)token
+- (id)initWithIdentifierToken:(CPIdentifierToken *)token
 {
     self = [super init];
     

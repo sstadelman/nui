@@ -10,18 +10,18 @@
 
 @implementation NUITokeniserDelegate
 
-- (BOOL)tokeniser:(NUIPTokeniser *)tokeniser shouldConsumeToken:(NUIPToken *)token
+- (BOOL)tokeniser:(CPTokeniser *)tokeniser shouldConsumeToken:(CPToken *)token
 {
     return YES;
 }
 
-- (void)tokeniser:(NUIPTokeniser *)tokeniser requestsToken:(NUIPToken *)token pushedOntoStream:(NUIPTokenStream *)stream
+- (void)tokeniser:(CPTokeniser *)tokeniser requestsToken:(CPToken *)token pushedOntoStream:(CPTokenStream *)stream
 {
     if ([token isWhiteSpaceToken] || [[token name] isEqualToString:@"Comment"])
         return;
     
     if ([token isIdentifierToken]) {
-        NUIPIdentifierToken *idToken =  (NUIPIdentifierToken *)token;
+        CPIdentifierToken *idToken =  (CPIdentifierToken *)token;
         
         if ([idToken.identifier hasPrefix:@"@"]) {
             NUIVariableToken *varToken  = [[NUIVariableToken alloc] initWithIdentifierToken:idToken];

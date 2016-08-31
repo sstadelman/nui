@@ -7,6 +7,7 @@
 //
 
 #import <objc/message.h>
+@import UIKit;
 
 #ifdef __IPHONE_6_0 // iOS6 and later
 #   define kTextAlignment           NSTextAlignment

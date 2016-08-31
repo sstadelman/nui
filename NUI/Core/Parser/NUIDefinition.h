@@ -6,13 +6,10 @@
 //  Copyright (c) 2014 Tom Benner. All rights reserved.
 //
 
-#if __has_include(<NUIParse/NUIParse.h>)
-#    import <NUIParse/NUIParse.h>
-#else
-#    import "NUIParse.h"
-#endif
+#import <CoreParse/CoreParse.h>
 
-@interface NUIDefinition : NSObject<NUIPParseResult>
+
+@interface NUIDefinition : NSObject<CPParseResult>
 
 @property (strong) NSString *variable;
 @property (strong) NSString *value;

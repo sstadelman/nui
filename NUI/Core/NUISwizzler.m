@@ -7,6 +7,7 @@
 //
 
 #import "NUISwizzler.h"
+@import UIKit;
 
 @implementation NUISwizzler
 
