@@ -65,6 +65,7 @@ FOUNDATION_EXPORT const unsigned char NUIVersionString[];
 #import <NUI/UISearchBar+NUI.h>
 #import <NUI/UISegmentedControl+NUI.h>
 #import <NUI/UISlider+NUI.h>
+#import <NUI/UISwitch+NUI.h>
 #import <NUI/UITabBar+NUI.h>
 #import <NUI/UITabBarItem+NUI.h>
 #import <NUI/UITableView+NUI.h>
